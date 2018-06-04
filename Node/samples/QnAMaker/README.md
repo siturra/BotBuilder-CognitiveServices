@@ -19,6 +19,7 @@ The QnA Recognizer takes in the following inputs:
 * qnaThreshold (optional) - Confidence threshod;
 * defaultMessage (optional) - Message to show if no results returned.
 * endpointHostName (optional) - To be used with the V4 APIs and the GA stack. See [here](https://aka.ms/qnamaker-docs-changesfrompreview).
+* isTest (optional) - Consult the knowledge base of the test and not the publish, default: false.
 ````
 var recognizer = new cognitiveservices.QnAMakerRecognizer({
 	knowledgeBaseId: 'set your kbid here', 
